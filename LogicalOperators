@@ -1,0 +1,10 @@
+Sub1=int(input("Enter marks of sub1:"))
+Sub2=int(input("Enter marks of sub2:"))
+Sub3=int(input("Enter marks of sub3:"))
+total= Sub1+Sub2+Sub3
+percentage=total/3
+if((Sub1>=45) and (Sub2>=45) and (Sub3>=45)):
+    print("passed with total marks "+total+" and percentage "+percentage+)
+    
+else:
+    print("fail")
