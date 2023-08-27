@@ -1,0 +1,7 @@
+Ch=input("Enter any character:")
+if(Ch>='A' and Ch<='Z'):
+    Ch=Ch.lower()
+    print("In lowercase:",Ch)
+else:
+    Ch=Ch.upper()
+    print("In uppercase:"+Ch)
