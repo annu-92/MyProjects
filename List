@@ -1,0 +1,23 @@
+#largest number in a list
+
+'''L=['annu','sejal','harsh','kartik','SID']
+L.sort()
+print(L[4])
+print(max(L))
+'''
+# merge two lists
+
+L=['annu','sejal','harsh','kartik','SID']
+L2=['1','2','5','7']
+L3=L+L2
+print(L3)
+L3.sort()
+print(L3)
+
+#swap first and last elements of list
+
+L2=['1','2','5','7']
+temp=L2[0]
+L2[0]=L2[-1]
+L2[-1]=temp
+print(L2)
