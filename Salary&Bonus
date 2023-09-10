@@ -1,3 +1,9 @@
+'''
+on the occassion of Diwali boss want to give bonus to his employees. If the employee is 
+female he will give 10% bonus on salary or if the employee is male he will give 5% bonus 
+on salary. if the salary is less than 10,000 extra 2% bonus ill be added to the salary.
+'''
+ 
 ch=input("Enter the sex of employee:")
 sal=int(input("Enter salary of employee:"))
 if(ch=="M") and (sal<10000):

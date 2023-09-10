@@ -1,6 +1,6 @@
 
 V= input("Enter alphabet:")
-if(V=='A') or (V=="E") or (V=='I') or (V=='O') or (V=='U'):
+if(V=='A') or (V=="E") or (V=='I') or (V=='O') or (V=='U') or (V=="a") or (V=="e") or (V=="i") or (V=="o") or (V=='u'):
     print("vowel")
 else:
     print("consonant")
